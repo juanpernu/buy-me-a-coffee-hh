@@ -1,0 +1,7 @@
+name = "buy-me-a-coffe-hh"
+version = "<%= package.version %>"
+description = "Buy me a coffee with Cannon Hard Hat plugin"
+keywords = ["cannon", "hard-hat", "buy-me-a-coffee"]
+
+[deploy.Coffee]
+artifact = "BuyMeACoffee"
