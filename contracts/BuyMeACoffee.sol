@@ -20,7 +20,7 @@ contract BuyMeACoffee {
     function buyMeACoffee(
         string memory _message
     ) public payable {
-        require(msg.value > 0, "Value must be greater than 0");
+        require(msg.value > 0.001 ether, "Value must be greater than 0.001");
 
         totalCoffee += 1;
 
