@@ -2,7 +2,7 @@ name = "buy-me-a-coffe-hh"
 version = "<%= package.version %>"
 description = "Buy me a coffee with Cannon Hard Hat plugin"
 keywords = ["cannon", "hard-hat", "buy-me-a-coffee"]
-deployers = ["0x688acA673e19571691A93E67d03E53c2C2A0697A", "0x88e224762460f5aAcA3Bde86dA4EFa9B13662b80"]
+deployers = ["0x688acA673e19571691A93E67d03E53c2C2A0697A"]
 
 [deploy.Coffee]
 artifact = "BuyMeACoffee"
